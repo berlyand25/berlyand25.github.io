@@ -1,0 +1,134 @@
+body {
+    background-image : url(img_Tugas2/bg.jpg);
+}
+
+.img-home {
+    float : left;
+    height : 200px;
+}
+
+.p-home {
+    text-align : justify;
+}
+
+.bg-profil {
+    height : 250px;
+    width : 100%;
+}
+
+.img-profil {
+    margin-top : -125px;
+    margin-left : 60px;
+    height : 225px;
+    width : 225px;
+    border : white solid 5px;
+}
+
+.div-header-store {
+    background-color : #0e5b86;
+}
+
+.img-produk {
+    height : 150px;
+    width : 100px;
+}
+
+.container-kontak {
+    min-height : 80vh;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.container-kontak form {
+    width : 670px;
+    height : 400px;
+    display : flex;
+    justify-content : center;
+    border-radius : 15px;
+    flex-wrap : wrap;
+}
+
+.container-kontak form h1 { 
+    color : #fff;
+    font-weight : 500px;
+    margin-top : 20px;
+    width : 500px;
+    text-align : center;
+}
+
+.container-kontak form input {
+    color : #fff;
+    width : 290px;
+    height : 40px;
+    padding-left : 10px;
+    outline : none;
+    border : none;
+    font-size : 15px;
+    margin-bottom : 10px;
+    background : none;
+    border-bottom : 2px solid #fff;
+}
+
+.container-kontak form input::placeholder, textarea::placeholder {
+    color : #ddd;
+}
+
+.container-kontak form h4 {
+    color : #fff;
+    font-weight : 300;
+    width : 600px;
+    margin-top : 20px;
+}
+
+.container-kontak form #Email {
+    margin-left : 20px;
+}
+
+.container-kontak form textarea {
+    background : none;
+    border : none;
+    border-bottom : 2px solid #fff;
+    color : #fff;
+    font-weight : 200px;
+    font-size : 15px;
+    padding : 10px;
+    outline : none;
+    min-width : 600px;
+    max-width : 600px;
+    min-height : 80px;
+    max-height : 80px;
+}
+
+textarea::-webkit-scrollbar {
+    width : 1em;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background-color : rgba(194,194,194,0.713);
+}
+
+.container-kontak form #button {
+    border : none;
+    background : #fff;
+    border-radius : 5px;
+    margin-top : 20px;
+    font-weight : 600px;
+    font-size : 20px;
+    color : #333;
+    width : 100px;
+    padding : 0;
+    margin-right : 500px;
+    margin-bottom : 30px;
+    transition : 0.3s;
+}
+
+.container-kontak form #button:hover {
+    opacity : 0.7;
+}
+
+footer {
+    position : fixed;
+    bottom : 0;
+    width : 100%;
+}
